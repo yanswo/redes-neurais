@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FormaLab | Linguagens Formais</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=3" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">∑</span><div><strong>FormaLab</strong><small>laboratório de estudo</small></div></div>
+      <div class="course-label">REDES NEURAIS<br><span>GUIA AV1 · 2026.2</span></div>
+      <nav id="chapter-nav" class="chapter-nav"></nav>
+      <div class="sidebar-bottom"><div class="mini-progress"><span>Seu progresso</span><strong id="progress-value">0%</strong></div><div class="progress-track"><i id="progress-bar"></i></div><p>Continue de onde parou.</p></div>
+    </aside>
+    <main class="main-content">
+      <header class="topbar"><button id="menu-toggle" class="menu-btn" aria-label="Abrir ou fechar menu lateral">☰ <span>menu lateral</span></button><div class="breadcrumb">FORMA LAB <span>/</span> <b id="crumb">VISÃO GERAL</b></div><div class="top-actions"><button id="theme-toggle" class="theme-btn" aria-label="Alternar modo escuro">☾ <span>modo escuro</span></button><button id="reset-btn" class="text-btn">resetar progresso</button><div class="avatar">LF</div></div></header>
+      <section id="app" class="content-wrap"></section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
+
